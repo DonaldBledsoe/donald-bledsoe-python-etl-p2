@@ -12,7 +12,7 @@ def query(query, values=None):
         cursor.execute(query)
 
         # return query results
-        return cursor.fetchall()
+        # return cursor.fetchall()
 
 def connect():
     connection = psycopg2.connect(f"""
